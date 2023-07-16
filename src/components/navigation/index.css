@@ -1,0 +1,7 @@
+.menu {
+    @apply flex justify-between items-center relative;
+}
+
+.menu-item{
+    @apply mx-4 text-[#202020] cursor-pointer after:block after:w-0 after:translate-x-0 after:duration-300 after:h-0.5 after:ease-linear after:bg-[#202020] hover:after:inline-block hover:after:w-full hover:after:h-1 hover:after:bg-[#202020] ;
+}

@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { light } from "./styles/Themes";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/navigation/Navigation";
 import Footer from "./components/Footer";
 import Home from "./components/sections/Home";
 import About from "./components/sections/About";
