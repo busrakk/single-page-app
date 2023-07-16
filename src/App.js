@@ -1,10 +1,13 @@
-import "./App.css";
+import { ThemeProvider } from "styled-components";
+import { light } from "./styles/Themes";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <ThemeProvider theme={light}>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      </ThemeProvider>
+    </>
   );
 }
 
