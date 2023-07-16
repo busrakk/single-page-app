@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        logo: ['Akaya Telivigala', 'cursive'],
+        akaya: ['Akaya Telivigala', 'cursive'],
       },
     },
   },

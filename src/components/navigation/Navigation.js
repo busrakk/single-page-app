@@ -22,7 +22,7 @@ const Navigation = () => {
           <li className="menu-item">Team</li>
           <li className="menu-item">Faq</li>
         </ul>
-        <Button text="Connect Wallet" />
+        <Button text="Connect Wallet" link="/#" />
       </div>
     </Section>
   );
