@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const TypeWriterText = () => {
   return (
     <>
-      <h2 className="text-fontxxl capitalize w-80 text-[#202020] self-start">
+      <h2 className="text-fontxxl font-semibold capitalize w-[440px] text-[#202020] self-start">
         Discover a new era of cool
         <Typewriter
           options={{
@@ -32,7 +32,7 @@ const TypeWriterText = () => {
           }}
         />
       </h2>
-      <div className="text-fontlg capitalize text-[#202020] text-opacity-60 font-semibold mb-4 w-80 self-start">
+      <div className="text-fontlg capitalize text-[#202020] text-opacity-60 font-semibold mb-4 w-[440px] self-start">
         Bored Of Apes? Try Something New.
       </div>
       <div className="w-80 self-start">
